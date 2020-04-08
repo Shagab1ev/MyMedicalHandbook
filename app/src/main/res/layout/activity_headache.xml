@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/headtext"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/colorBack"
+                app:srcCompat="@drawable/headtext" />
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="match_parent"
+                android:layout_height="450dp"
+                android:background="@color/colorBack"
+                app:srcCompat="@drawable/about_headachee" />
+
+            <ImageView
+                android:id="@+id/not_headache"
+                android:layout_width="match_parent"
+                android:layout_height="209dp"
+                android:background="@color/colorBack"
+                app:srcCompat="@drawable/not_head" />
+
+            <ImageView
+                android:id="@+id/banner_types_head"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:background="@color/colorBack"
+                app:srcCompat="@drawable/banner_type_head" />
+
+            <ImageView
+                android:id="@+id/type_head_one"
+                android:layout_width="match_parent"
+                android:layout_height="452dp"
+                android:background="@color/colorBack"
+                app:srcCompat="@drawable/type_head_one" />
+
+            <ImageView
+                android:id="@+id/background_head"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/colorBack"
+                android:scaleType="centerCrop"
+                app:srcCompat="@color/colorBack" />
+
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+
+</LinearLayout>

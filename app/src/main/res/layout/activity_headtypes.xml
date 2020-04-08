@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorBack"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/maintype_banner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorBack"
+                app:srcCompat="@drawable/types_head" />
+
+            <ImageButton
+                android:id="@+id/first_typeb"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorBack"
+                android:onClick="onClickFirstType"
+                app:srcCompat="@drawable/first_typeb" />
+
+            <ImageButton
+                android:id="@+id/second_typeb"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorBack"
+                android:onClick="onClickSecondType"
+                app:srcCompat="@drawable/second_typeb" />
+
+            <ImageButton
+                android:id="@+id/third_typeb"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorBack"
+                android:onClick="onClickThirdType"
+                app:srcCompat="@drawable/third_typeb" />
+
+            <ImageButton
+                android:id="@+id/fourth_typeb"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorBack"
+                android:onClick="onClickFourthType"
+                app:srcCompat="@drawable/fourth_typeb" />
+
+            <ImageButton
+                android:id="@+id/fifth_typeb"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorBack"
+                android:onClick="onClickFifthType"
+                app:srcCompat="@drawable/fifth_typeb" />
+
+            <ImageButton
+                android:id="@+id/sixth_typeb"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorBack"
+                android:onClick="onClickSixthType"
+                app:srcCompat="@drawable/sixth_typeb" />
+
+            <ImageButton
+                android:id="@+id/seventh_typeb"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorBack"
+                android:onClick="onClickSeventhType"
+                app:srcCompat="@drawable/seventh_typeb" />
+
+            <ImageButton
+                android:id="@+id/eighth_typeb"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorBack"
+                android:onClick="onClickEighthType"
+                app:srcCompat="@drawable/eighth_typeb" />
+
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+
+</LinearLayout>

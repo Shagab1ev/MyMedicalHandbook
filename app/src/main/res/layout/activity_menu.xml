@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/backmenu"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:srcCompat="@color/colorBack" />
+
+        <ImageView
+            android:id="@+id/menuMen"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/men"
+            tools:layout_editor_absoluteX="199dp"
+            tools:layout_editor_absoluteY="325dp" />
+
+        <ImageButton
+            android:id="@+id/buttonHead"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginBottom="604dp"
+            android:background="@android:color/transparent"
+            android:onClick="onClickHead"
+            android:scaleType="centerCrop"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.935"
+            app:srcCompat="@android:color/transparent" />
+
+        <ImageButton
+            android:id="@+id/buttonMouth"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginBottom="512dp"
+            android:background="@android:color/transparent"
+            android:onClick="onClickThroat"
+            app:layout_constraintBottom_toBottomOf="@+id/backmenu"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="1.0"
+            app:srcCompat="@android:color/transparent" />
+
+        <ImageButton
+            android:id="@+id/buttonStomach"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_marginBottom="340dp"
+            android:background="@android:color/transparent"
+            android:onClick="onClickStomach"
+            app:layout_constraintBottom_toBottomOf="@+id/backmenu"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="@+id/backmenu"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="1.0"
+            app:srcCompat="@android:color/transparent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>
