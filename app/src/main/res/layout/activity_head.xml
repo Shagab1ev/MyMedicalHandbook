@@ -20,7 +20,7 @@
             <ImageView
                 android:id="@+id/imageView"
                 android:layout_width="match_parent"
-                android:layout_height="114dp"
+                android:layout_height="100dp"
                 android:background="@color/colorBack"
                 app:srcCompat="@drawable/headtext_ache" />
 
@@ -50,7 +50,7 @@
             <ImageButton
                 android:id="@+id/headtypes"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_height="wrap_content"
                 android:background="@color/colorBack"
                 android:onClick="onClickHeadtypes"
                 android:scaleType="fitCenter"

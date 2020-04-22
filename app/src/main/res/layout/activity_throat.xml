@@ -20,6 +20,28 @@
                 android:layout_width="match_parent"
                 android:layout_height="100dp"
                 app:srcCompat="@drawable/throatache" />
+
+            <TextView
+                android:id="@+id/aboutThroatAche"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_marginEnd="15dp"
+                android:layout_marginBottom="15dp"
+                android:text="@string/aboutThroatAche"
+                android:textColor="@color/colorAccent"
+                android:textSize="20dp"
+                android:textStyle="bold|italic" />
+
+            <ImageButton
+                android:id="@+id/typesThroat"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorBack"
+                android:onClick="onClickThroatTypes"
+                android:scaleType="fitStart"
+                app:srcCompat="@drawable/headtypes" />
+
         </LinearLayout>
     </androidx.core.widget.NestedScrollView>
 </LinearLayout>

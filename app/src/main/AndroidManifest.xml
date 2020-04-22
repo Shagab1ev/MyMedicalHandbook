@@ -29,6 +29,12 @@
         <activity android:name=".headtypes_eighth"/>
         <activity android:name=".ThroatActivity"/>
         <activity android:name=".StomachActivity"/>
+        <activity android:name=".throatTypes"/>
+        <activity android:name=".throattypes_first"/>
+        <activity android:name=".throattypes_second"/>
+        <activity android:name=".throattypes_third"/>
+        <activity android:name=".throattypes_fourth"/>
+        <activity android:name=".throattypes_fifth"/>
     </application>
 
 </manifest>

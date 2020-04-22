@@ -1,6 +1,8 @@
 package com.example.myhandbook;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
 import android.view.Window;
 import android.view.WindowManager;
 
@@ -13,5 +15,9 @@ public class ThroatActivity extends AppCompatActivity {
 
         Window w = getWindow();
         w.setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,WindowManager.LayoutParams.FLAG_FULLSCREEN);
+    }
+    public void onClickThroatTypes(View view){
+        Intent throatTypes = new Intent(ThroatActivity.this,throatTypes.class);
+        startActivity(throatTypes);
     }
 }
