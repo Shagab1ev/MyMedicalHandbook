@@ -35,6 +35,14 @@
         <activity android:name=".throattypes_third"/>
         <activity android:name=".throattypes_fourth"/>
         <activity android:name=".throattypes_fifth"/>
+        <activity android:name=".stomachTypes"/>
+        <activity android:name=".stomachAches"/>
+        <activity android:name=".first_stomach_ache"/>
+        <activity android:name=".second_stomach_ache"/>
+        <activity android:name=".third_stomach_ache"/>
+        <activity android:name=".fourth_stomach_ache"/>
+        <activity android:name=".fifth_stomach_ache"/>
+        <activity android:name=".sixth_stomach_ache"/>
     </application>
 
 </manifest>

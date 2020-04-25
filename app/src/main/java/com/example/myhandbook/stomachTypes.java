@@ -8,16 +8,16 @@ import android.view.WindowManager;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-public class StomachActivity extends AppCompatActivity {
+public class stomachTypes extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_stomach);
+        setContentView(R.layout.activity_stomachtypes);
 
         Window w = getWindow();
         w.setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,WindowManager.LayoutParams.FLAG_FULLSCREEN);
     }
-    public void onClickStomachTypes(View view){
-        Intent types = new Intent(StomachActivity.this,stomachTypes.class);
-        startActivity(types);
+    public void onClickStomachViews(View view){
+        Intent views = new Intent(stomachTypes.this,stomachAches.class);
+        startActivity(views);
     }
 }

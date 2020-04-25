@@ -1,23 +1,17 @@
 package com.example.myhandbook;
 
-import android.content.Intent;
 import android.os.Bundle;
-import android.view.View;
 import android.view.Window;
 import android.view.WindowManager;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-public class StomachActivity extends AppCompatActivity {
+public class first_stomach_ache extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_stomach);
+        setContentView(R.layout.first_stomach_ache);
 
         Window w = getWindow();
         w.setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,WindowManager.LayoutParams.FLAG_FULLSCREEN);
-    }
-    public void onClickStomachTypes(View view){
-        Intent types = new Intent(StomachActivity.this,stomachTypes.class);
-        startActivity(types);
     }
 }

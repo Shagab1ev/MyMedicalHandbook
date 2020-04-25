@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorBack"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imageView18"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/stomach_types" />
+
+            <ImageButton
+                android:id="@+id/first_stomach_ache"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorBack"
+                android:onClick="first_stomach_ache"
+                app:srcCompat="@drawable/first_stomach_ache" />
+
+            <ImageButton
+                android:id="@+id/second_stomach_ache"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorBack"
+                android:onClick="second_stomach_ache"
+                app:srcCompat="@drawable/second_stomach_ache" />
+
+            <ImageButton
+                android:id="@+id/third_stomach_ache"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorBack"
+                android:onClick="third_stomach_ache"
+                app:srcCompat="@drawable/third_stomach_ache" />
+
+            <ImageButton
+                android:id="@+id/fourth_stomach_ache"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorBack"
+                android:onClick="fourth_stomach_ache"
+                app:srcCompat="@drawable/fourth_stomach_ache" />
+
+            <ImageButton
+                android:id="@+id/fifth_stomach_ache"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorBack"
+                android:onClick="fifth_stomach_ache"
+                app:srcCompat="@drawable/fifth_stomach_ache" />
+
+            <ImageButton
+                android:id="@+id/sixth_stomach_ache"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorBack"
+                android:onClick="sixth_stomach_ache"
+                app:srcCompat="@drawable/sixth_stomach_ache" />
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</LinearLayout>
