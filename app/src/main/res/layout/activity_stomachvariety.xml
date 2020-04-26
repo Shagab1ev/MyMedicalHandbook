@@ -16,45 +16,55 @@
             android:orientation="vertical" >
 
             <ImageView
-                android:id="@+id/imageView17"
+                android:id="@+id/imageView31"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                app:srcCompat="@drawable/types_head" />
+                app:srcCompat="@drawable/variety" />
 
             <TextView
-                android:id="@+id/textView9"
+                android:id="@+id/textView16"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="10dp"
                 android:layout_marginEnd="10dp"
-                android:text="@string/stomachtypes"
+                android:text="@string/stomachVarietyOne"
+                android:textColor="@color/colorTypes"
+                android:textSize="20dp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/textView17"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="10dp"
+                android:text="@string/stomachVarietiesFirst"
                 android:textColor="@color/colorAccent"
                 android:textSize="20dp"
                 android:textStyle="bold|italic" />
 
-            <ImageButton
-                android:id="@+id/types"
+            <TextView
+                android:id="@+id/textView18"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:background="@color/colorBack"
-                android:onClick="onClickStomachViews"
-                app:srcCompat="@drawable/stomach_types" />
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:text="@string/stomachVarietyTwo"
+                android:textColor="@color/colorTypes"
+                android:textSize="20dp"
+                android:textStyle="bold|italic" />
 
-            <ImageButton
-                android:id="@+id/varieties"
+            <TextView
+                android:id="@+id/textView19"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:background="@color/colorBack"
-                android:onClick="onClickStomachVarieties"
-                app:srcCompat="@drawable/variety" />
-
-            <ImageButton
-                android:id="@+id/symptoms"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:background="@color/colorBack"
-                android:onClick="onClickStomachSymptoms"
-                app:srcCompat="@drawable/stomach_symptoms" />
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:text="@string/stomachVarietiesSecond"
+                android:textColor="@color/colorAccent"
+                android:textSize="20dp"
+                android:textStyle="bold|italic" />
         </LinearLayout>
     </androidx.core.widget.NestedScrollView>
 </LinearLayout>

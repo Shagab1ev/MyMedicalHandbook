@@ -20,4 +20,12 @@ public class stomachTypes extends AppCompatActivity {
         Intent views = new Intent(stomachTypes.this,stomachAches.class);
         startActivity(views);
     }
+    public void onClickStomachVarieties (View view){
+        Intent variety = new Intent(stomachTypes.this,stomachVariety.class);
+        startActivity(variety);
+    }
+    public void onClickStomachSymptoms(View view){
+        Intent symptoms = new Intent(stomachTypes.this,stomachSymptoms.class);
+        startActivity(symptoms);
+    }
 }
