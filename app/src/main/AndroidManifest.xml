@@ -43,6 +43,8 @@
         <activity android:name=".fourth_stomach_ache"/>
         <activity android:name=".fifth_stomach_ache"/>
         <activity android:name=".sixth_stomach_ache"/>
+        <activity android:name=".stomachSymptoms"/>
+        <activity android:name=".stomachVariety"/>
     </application>
 
 </manifest>
