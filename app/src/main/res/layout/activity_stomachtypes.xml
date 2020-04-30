@@ -36,6 +36,7 @@
                 android:id="@+id/types"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
                 android:background="@color/colorBack"
                 android:onClick="onClickStomachViews"
                 app:srcCompat="@drawable/stomach_types" />
