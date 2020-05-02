@@ -45,6 +45,9 @@
         <activity android:name=".sixth_stomach_ache"/>
         <activity android:name=".stomachSymptoms"/>
         <activity android:name=".stomachVariety"/>
+        <activity android:name=".stomachRepair"/>
+        <activity android:name=".BoneAcheActivity"/>
+        <activity android:name=".BoneAche_reasons"/>
     </application>
 
 </manifest>

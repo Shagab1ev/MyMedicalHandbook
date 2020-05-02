@@ -16,52 +16,63 @@
             android:orientation="vertical" >
 
             <ImageView
-                android:id="@+id/imageView31"
+                android:id="@+id/imageView32"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                app:srcCompat="@drawable/variety" />
+                app:srcCompat="@drawable/stomach_repair" />
 
             <TextView
-                android:id="@+id/textView16"
+                android:id="@+id/about"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="10dp"
                 android:layout_marginEnd="10dp"
-                android:text="@string/stomachVarietyOne"
+                android:text="@string/stomachRepairAbout"
                 android:textColor="@color/colorTypes"
                 android:textSize="20dp"
                 android:textStyle="bold|italic" />
 
             <TextView
-                android:id="@+id/textView17"
+                android:id="@+id/textView24"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="10dp"
                 android:layout_marginEnd="10dp"
                 android:layout_marginBottom="10dp"
-                android:text="@string/stomachVarietiesFirst"
+                android:text="@string/stomachRepair"
                 android:textColor="@color/colorAccent"
                 android:textSize="15dp"
                 android:textStyle="bold|italic" />
 
             <TextView
-                android:id="@+id/textView18"
+                android:id="@+id/textView25"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="10dp"
                 android:layout_marginEnd="10dp"
-                android:text="@string/stomachVarietyTwo"
+                android:text="@string/stomachRepairTwo"
+                android:textColor="@color/colorAccent"
+                android:textSize="20dp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/textView27"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:text="@string/stomachRepairThree"
                 android:textColor="@color/colorTypes"
                 android:textSize="20dp"
                 android:textStyle="bold|italic" />
 
             <TextView
-                android:id="@+id/textView19"
+                android:id="@+id/textView26"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="10dp"
                 android:layout_marginEnd="10dp"
-                android:text="@string/stomachVarietiesSecond"
+                android:text="@string/stomachRepairSecondList"
                 android:textColor="@color/colorAccent"
                 android:textSize="15dp"
                 android:textStyle="bold|italic" />

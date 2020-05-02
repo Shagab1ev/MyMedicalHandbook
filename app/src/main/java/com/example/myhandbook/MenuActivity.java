@@ -29,4 +29,8 @@ public class MenuActivity extends AppCompatActivity {
         Intent stomach = new Intent(MenuActivity.this,StomachActivity.class);
         startActivity(stomach);
     }
+    public void onClickBoneAche(View view){
+        Intent bone = new Intent(MenuActivity.this,BoneAcheActivity.class);
+        startActivity(bone);
+    }
 }

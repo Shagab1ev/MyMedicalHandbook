@@ -28,4 +28,8 @@ public class stomachTypes extends AppCompatActivity {
         Intent symptoms = new Intent(stomachTypes.this,stomachSymptoms.class);
         startActivity(symptoms);
     }
+    public void onClickStomachRepair(View view){
+        Intent repair = new Intent(stomachTypes.this,stomachRepair.class);
+        startActivity(repair);
+    }
 }

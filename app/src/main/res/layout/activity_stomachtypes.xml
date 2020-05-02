@@ -56,6 +56,14 @@
                 android:background="@color/colorBack"
                 android:onClick="onClickStomachSymptoms"
                 app:srcCompat="@drawable/stomach_symptoms" />
+
+            <ImageButton
+                android:id="@+id/imageButton2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorBack"
+                android:onClick="onClickStomachRepair"
+                app:srcCompat="@drawable/stomach_repair" />
         </LinearLayout>
     </androidx.core.widget.NestedScrollView>
 </LinearLayout>
