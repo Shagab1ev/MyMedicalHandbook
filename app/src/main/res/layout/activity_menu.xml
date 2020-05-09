@@ -21,110 +21,112 @@
             android:layout_height="match_parent"
             android:scaleType="fitCenter"
             app:srcCompat="@drawable/men"
-            tools:layout_editor_absoluteX="199dp"
-            tools:layout_editor_absoluteY="325dp" />
+            tools:layout_editor_absoluteX="-87dp"
+            tools:layout_editor_absoluteY="16dp" />
 
         <ImageButton
             android:id="@+id/buttonHead"
-            android:layout_width="50dp"
-            android:layout_height="50dp"
-            android:layout_marginBottom="604dp"
+            android:layout_width="15dp"
+            android:layout_height="15dp"
             android:background="@android:color/transparent"
             android:onClick="onClickHead"
             android:scaleType="centerCrop"
-            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintBottom_toBottomOf="@+id/backmenu"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintHorizontal_bias="0.49"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="1.0"
-            app:srcCompat="@android:color/transparent" />
+            app:layout_constraintVertical_bias="0.138"
+            app:srcCompat="@drawable/menubutton" />
 
         <ImageButton
             android:id="@+id/buttonMouth"
-            android:layout_width="50dp"
-            android:layout_height="50dp"
-            android:layout_marginBottom="512dp"
+            android:layout_width="15dp"
+            android:layout_height="15dp"
             android:background="@android:color/transparent"
             android:onClick="onClickThroat"
+            android:scaleType="centerCrop"
             app:layout_constraintBottom_toBottomOf="@+id/backmenu"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintHorizontal_bias="0.484"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="1.0"
-            app:srcCompat="@android:color/transparent" />
+            app:layout_constraintVertical_bias="0.263"
+            app:srcCompat="@drawable/menubutton" />
 
         <ImageButton
             android:id="@+id/buttonStomach"
-            android:layout_width="70dp"
-            android:layout_height="70dp"
-            android:layout_marginBottom="340dp"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
             android:background="@android:color/transparent"
             android:onClick="onClickStomach"
-            app:layout_constraintBottom_toBottomOf="@+id/backmenu"
+            android:scaleType="centerCrop"
+            app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.498"
-            app:layout_constraintStart_toStartOf="@+id/backmenu"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="1.0"
-            app:srcCompat="@android:color/transparent" />
+            app:layout_constraintHorizontal_bias="0.497"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/backmenu"
+            app:srcCompat="@drawable/menubutton" />
 
         <ImageButton
             android:id="@+id/bonefootsone"
-            android:layout_width="50dp"
-            android:layout_height="50dp"
-            android:layout_marginEnd="144dp"
-            android:layout_marginBottom="156dp"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
             android:background="@android:color/transparent"
             android:onClick="onClickBoneAche"
+            android:scaleType="centerCrop"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.608"
+            app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="1.0"
-            app:srcCompat="@android:color/transparent" />
+            app:layout_constraintVertical_bias="0.777"
+            app:srcCompat="@drawable/menubutton" />
 
         <ImageButton
             android:id="@+id/bonefoottwo"
-            android:layout_width="50dp"
-            android:layout_height="50dp"
-            android:layout_marginEnd="16dp"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
             android:layout_marginBottom="156dp"
             android:background="@android:color/transparent"
             android:onClick="onClickBoneAche"
+            android:scaleType="centerCrop"
             app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toStartOf="@+id/bonefootsone"
-            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.412"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_bias="1.0"
-            app:srcCompat="@android:color/transparent" />
-
-        <ImageButton
-            android:id="@+id/bonearmone"
-            android:layout_width="50dp"
-            android:layout_height="50dp"
-            android:layout_marginEnd="144dp"
-            android:background="@android:color/transparent"
-            android:onClick="onClickBoneAche"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toStartOf="@+id/bonearmtwo"
-            app:layout_constraintHorizontal_bias="1.0"
-            app:layout_constraintStart_toStartOf="@+id/backmenu"
-            app:layout_constraintTop_toTopOf="parent"
-            app:srcCompat="@android:color/transparent" />
+            app:srcCompat="@drawable/menubutton" />
 
         <ImageButton
             android:id="@+id/bonearmtwo"
-            android:layout_width="50dp"
-            android:layout_height="50dp"
-            android:layout_marginEnd="84dp"
+            android:layout_width="15dp"
+            android:layout_height="15dp"
             android:background="@android:color/transparent"
             android:onClick="onClickBoneAche"
+            android:scaleType="centerCrop"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.724"
+            app:layout_constraintStart_toStartOf="@+id/backmenu"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/menubutton" />
+
+        <ImageButton
+            android:id="@+id/bonearmone"
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:background="@android:color/transparent"
+            android:onClick="onClickBoneAche"
+            android:scaleType="centerCrop"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="@+id/backmenu"
+            app:layout_constraintHorizontal_bias="0.272"
+            app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:srcCompat="@android:color/transparent" />
+            app:layout_constraintVertical_bias="0.499"
+            app:srcCompat="@drawable/menubutton" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 </LinearLayout>
