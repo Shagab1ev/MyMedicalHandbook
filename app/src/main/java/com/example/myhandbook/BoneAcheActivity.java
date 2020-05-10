@@ -20,4 +20,12 @@ public class BoneAcheActivity extends AppCompatActivity {
         Intent reasons = new Intent(BoneAcheActivity.this,BoneAche_reasons.class);
         startActivity(reasons);
     }
+    public void onClickBoneAcheCharacter(View view){
+        Intent character = new Intent(BoneAcheActivity.this,BoneAche_character.class);
+        startActivity(character);
+    }
+    public void onClickBoneAcheHealing(View view){
+        Intent healing = new Intent(BoneAcheActivity.this,BoneAche_healing.class);
+        startActivity(healing);
+    }
 }

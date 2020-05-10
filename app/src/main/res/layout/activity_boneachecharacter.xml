@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorBack"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imageView37"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/boneachecharacter" />
+
+            <ImageButton
+                android:id="@+id/imageButton5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorBack"
+                android:onClick="onClickFirstBoneCharacter"
+                app:srcCompat="@drawable/first_bone_character" />
+
+            <ImageButton
+                android:id="@+id/imageButton6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorBack"
+                android:onClick="onClickSecondBoneCharacter"
+                app:srcCompat="@drawable/second_bone_character" />
+
+            <ImageButton
+                android:id="@+id/imageButton7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorBack"
+                android:onClick="onClickThirdBoneCharacter"
+                app:srcCompat="@drawable/third_bone_character" />
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</LinearLayout>

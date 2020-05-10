@@ -90,6 +90,22 @@
                 android:background="@color/colorBack"
                 android:onClick="onClickBoneAcheReasons"
                 app:srcCompat="@drawable/boneache_reasons" />
+
+            <ImageButton
+                android:id="@+id/imageButton4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorBack"
+                android:onClick="onClickBoneAcheCharacter"
+                app:srcCompat="@drawable/boneachecharacter" />
+
+            <ImageButton
+                android:id="@+id/imageButton8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorBack"
+                android:onClick="onClickBoneAcheHealing"
+                app:srcCompat="@drawable/bone_healing" />
         </LinearLayout>
     </androidx.core.widget.NestedScrollView>
 </LinearLayout>

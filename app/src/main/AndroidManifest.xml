@@ -48,6 +48,11 @@
         <activity android:name=".stomachRepair"/>
         <activity android:name=".BoneAcheActivity"/>
         <activity android:name=".BoneAche_reasons"/>
+        <activity android:name=".BoneAche_character"/>
+        <activity android:name=".first_bone_character"/>
+        <activity android:name=".second_bone_character"/>
+        <activity android:name=".third_bone_character"/>
+        <activity android:name=".BoneAche_healing"/>
     </application>
 
 </manifest>
