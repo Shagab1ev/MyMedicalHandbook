@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">My handbook21</string>
+    <string name="app_name">Medical HandBook</string>
     <string name="title_activity_main_menu">MainMenu</string>
     <string name="action_settings">Settings</string>
     <string name="about_head" translatable="false">  – серьезный симптом, поэтому лучше не относиться к этому явлению легкомысленно и пройти комплексное обследование у терапевта и невропатолога. Вероятно, понадобится проверить состояние шейного отдела позвоночника, а может быть, и сосудов головного мозга. Но если специалисты не найдут у вас никаких неврологических патологий, можно постараться справиться с бедой своими силами.</string>
