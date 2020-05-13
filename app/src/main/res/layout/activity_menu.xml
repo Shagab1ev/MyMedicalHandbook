@@ -26,8 +26,8 @@
 
         <ImageButton
             android:id="@+id/buttonHead"
-            android:layout_width="15dp"
-            android:layout_height="15dp"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
             android:background="@android:color/transparent"
             android:onClick="onClickHead"
             android:scaleType="centerCrop"
@@ -41,8 +41,8 @@
 
         <ImageButton
             android:id="@+id/buttonMouth"
-            android:layout_width="15dp"
-            android:layout_height="15dp"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
             android:background="@android:color/transparent"
             android:onClick="onClickThroat"
             android:scaleType="centerCrop"
@@ -96,35 +96,6 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_bias="0.777"
-            app:srcCompat="@drawable/menubutton" />
-
-        <ImageButton
-            android:id="@+id/bonearmtwo"
-            android:layout_width="15dp"
-            android:layout_height="15dp"
-            android:background="@android:color/transparent"
-            android:onClick="onClickBoneAche"
-            android:scaleType="centerCrop"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.724"
-            app:layout_constraintStart_toStartOf="@+id/backmenu"
-            app:layout_constraintTop_toTopOf="parent"
-            app:srcCompat="@drawable/menubutton" />
-
-        <ImageButton
-            android:id="@+id/bonearmone"
-            android:layout_width="15dp"
-            android:layout_height="15dp"
-            android:background="@android:color/transparent"
-            android:onClick="onClickBoneAche"
-            android:scaleType="centerCrop"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="@+id/backmenu"
-            app:layout_constraintHorizontal_bias="0.272"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.499"
             app:srcCompat="@drawable/menubutton" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
